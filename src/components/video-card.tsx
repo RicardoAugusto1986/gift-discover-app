@@ -211,7 +211,7 @@ export function VideoCard({
         target="_blank"
         rel="noopener noreferrer"
         onClick={(e) => { e.stopPropagation(); onInteraction("click", product); }}
-        className="absolute bottom-6 left-1/2 -translate-x-1/2 w-[90%] max-w-md z-10"
+        className="absolute bottom-16 sm:bottom-6 left-1/2 -translate-x-1/2 w-[90%] max-w-md z-10"
       >
         <div className="group flex items-center gap-4 bg-card/80 backdrop-blur-md p-3 rounded-xl shadow-2xl transition-transform hover:scale-105 border border-white/20">
           <div className="relative w-16 h-16 flex-shrink-0">
